@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main(){
+
+    int wt;
+    scanf("%d",&wt);
+    if(wt%4==0){
+            if(wt==0){
+                printf("NO");
+
+            }
+            else{
+                 printf("YES");
+            }
+
+
+    }
+    else
+    {
+        printf("NO");
+    }
+
+
+    return 0;
+
+
+}
